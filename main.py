@@ -2,11 +2,11 @@ from openai import OpenAI
 import streamlit as st
 
 st.set_page_config(
-    page_title="Developer Helper",
+    page_title="Here to rescue!",
     page_icon="🧊",
 )
 
-st.header('Developer Helper', divider='rainbow')
+st.header('Here to rescue!', divider='rainbow')
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
